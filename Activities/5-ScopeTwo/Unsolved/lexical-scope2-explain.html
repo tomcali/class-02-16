@@ -21,15 +21,9 @@
         // What will this print?
         console.log("Name:", this.name, "Color:", this.color, "Age:", this.age);
 
-        // here we have an anonymous function within a method function
-        // it is a function expression
-        // a variable referring to an anonymous function stored in memory
         var nestedFunction = function() {
 
           // What will this print?
-          // this will print the window object... a global variable
-          // in the browser ....  window is one of the few global
-          // objects  ....  it will display the window in the console
           console.log(this);
 
           // What will this print?
